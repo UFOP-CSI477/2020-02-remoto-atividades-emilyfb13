@@ -32,17 +32,17 @@
   
 ### 2. Funcionalidades previstas e não implementadas
 Não foi implementado o JS para que ao selecionar o botão na página Consulta o conteudo será incluido na caixa de texto.
-
-### 3. Outras funcionalidades implementadas
-
-### 4. Principais desafios e dificuldades
+### 3. Principais desafios e dificuldades
 A maior dificuldade foi no entendimento da autenticação, para entender a funcionalidade dos divs inclui css colorido para identificar cada parte.
 
-Também encontrei dificuldade no controle depois que inclui a autenticação para redirecionar o home depois do login, mas com algumas tentativas encontrei uma solução, mas que talvez tenha ficado um pouco redundante.
+Também encontrei dificuldade no controller depois que inclui a autenticação, para redirecionar o home depois de realizar o login, mas com algumas tentativas encontrei uma solução, mas que deixou as views redundantes (as views home e inicio são iguais).
 
-### 5. Instruções para instalação e execução
+### 4. Instruções para instalação e execução
 A execução é realizada conforme as aulas. Toda a estrutura e funcionamento foi formada baseada nas aulas ministradas.
 
-### 6. Referências
-<!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
+Alterar o .env
+Criar a tabela "dados" e "tarefas" conforme os migrations
+Preencher a tabela "dados" utilizando o "DadoFactory"
+
+Os usuários e tabelas podem ser cadastrados utilizando a ferramenta.
 
