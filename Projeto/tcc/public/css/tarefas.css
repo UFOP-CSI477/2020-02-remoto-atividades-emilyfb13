@@ -1,0 +1,12 @@
+#botaotarefa{
+    color:white;
+}
+#botaotarefa:hover{
+    color:black;
+}
+#labeltarefas{
+    font-family: Roboto;
+    font-style: normal;
+    font-size:  x-large;
+    font-weight: bold;
+}

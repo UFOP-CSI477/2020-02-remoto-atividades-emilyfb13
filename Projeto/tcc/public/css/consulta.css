@@ -1,0 +1,57 @@
+#simbolos{
+    left: 13%;
+    margin-top: 3%;
+    
+}
+#simbolo{
+    background: #c4c4c4;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    /* S */
+    box-shadow: 0px 2px 16px rgba(69, 69, 69, 0.1);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    align-items: center;
+    text-align: center; 
+    margin: 2%;
+}
+
+/* Tabela */
+.hidden{
+    display: none;
+}
+.nav-tabs{
+    background: #FFFFFF;
+    /* S */  
+    box-shadow: 0px -5px 16px rgba(10, 10, 10, 0.1);
+    border-radius: 24px 24px 0px 0px;
+}
+.abaTabelaLinha{
+    margin-left: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#abaTabela{
+    border-radius: 5px 5px 0px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: x-large;
+    align-items: center;
+    text-align: center; 
+    color: #c2c2c2;
+    text-decoration: none;
+}
+#abaTabela:focus, #abaTabela:hover{
+   
+    border-radius: 20px 20px 0px 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: x-large;
+    align-items: center;
+    text-align: center; 
+    color: black;
+    text-decoration: none;
+    padding: 6% 0% 10% 0%;
+}
+
