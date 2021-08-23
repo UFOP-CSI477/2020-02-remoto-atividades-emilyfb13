@@ -2,10 +2,10 @@
 
 ## Atualize os seus dados:
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
+- Nome: Emily Ferreira de Brito
+- Matrícula:15.2.8030
+- Curso:Engenharia de Computação
+- Semestre/Ano correntes:21/01
 - Link para o seu GitHub:
 
 ## [Projeto final:](./Projeto/README.md) 
