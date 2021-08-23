@@ -46,3 +46,6 @@ Preencher a tabela "dados" utilizando o "DadoFactory"
 
 Os usuários e tabelas podem ser cadastrados utilizando a ferramenta.
 
+
+OBS: minha versão é acima da usada na disciplina, não consegui voltar. Então no factory ele pedia para colar um () na frente.. Então quando for testar na versão da disciplina precisa apagar.
+
