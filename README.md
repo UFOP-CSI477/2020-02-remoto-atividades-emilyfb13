@@ -12,3 +12,4 @@
 
 Apresente uma breve descrição do seu projeto.
 
+Ferramenta Web para consulta de Álgebra Relacional.
