@@ -1,0 +1,22 @@
+h1, h2, h3{
+    color: #9D2A35;
+    font-family: Roboto;
+}
+.perfil{
+    background-color: #EEE5DE;
+    width: 400px;
+    height: 260px;
+    padding: 10px;
+    margin: 20px 0px 0px 400px;
+    border-radius: 10%;
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1px;
+}
