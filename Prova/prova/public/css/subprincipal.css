@@ -1,0 +1,67 @@
+.logo, .logo:hover {
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: x-large;
+    color: black;
+}
+#subtela{
+    background-color: rgb(233, 233, 233);
+    border-radius: px;
+}
+
+#subtopo{
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    border-color: grey;
+
+}
+#logoadm{
+    height: auto; 
+    width: auto; 
+    max-width: 50px; 
+    max-height: 50px;
+}
+#botaotabela{
+    color:white;
+}
+#botaotabela:hover{
+    color:black;
+}
+#labeltabela{
+    font-family: Roboto;
+    font-style: normal;
+    font-size:  x-large;
+    font-weight: bold;
+}
+/*formularios*/
+#login{
+    font-family: Roboto;
+    font-style: normal;
+    font-size:  x-large;
+    font-weight: bold;
+}
+#loginsm{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size:large;
+    color: black;
+}
+.card{
+    background: #FFFFFF;
+    /* S */  
+    box-shadow: 1px 5px 16px rgba(10, 10, 10, 0.1);
+    border-radius: 24px 24px 24px 24px;
+}
+.card-header{
+    border-radius: 24px 24px 0px 0px;
+}
+.card-header:first-child{
+    border-radius: 24px 24px 0px 0px;
+}
+#imgsubprincipal{
+    height: auto; 
+    width: auto; 
+    max-width: 400px; 
+    max-height: 400px;
+}

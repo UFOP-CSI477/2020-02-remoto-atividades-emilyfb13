@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Perfil</title>    
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="index.html">Home</a>
+                <a href="estados.html">Estados</a>
+                <a href="cidades.html">Cidades</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="pessoas.html">Pessoas</a>
+                <a href="cadastro.html">Cadastro de Pessoas</a>
+                <a href="relatorio.html">Relatório de Pessoas</a>
+                <a href="compras.html">Compras</a>
+                <a href="perfil.html">Perfil</a>
+                <a href="#">Sair</a>
+            </div>
+        </header>
+
+        <form method="GET" action="pessoas.html">
+            <div>
+               <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label for="data_nascimento">Data de Nascimento:</label>
+                <input type="date" name="data_nascimento" id="data_nascimento">
+            </div>
+            <div>
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" id="endereco">
+            </div>
+            <div>
+                <label for="cpf">CPF:</label>
+                <input type="number" name="cpf" id="cpf">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="profissao">Profissão:</label>
+                <input type="text" name="profissao" id="profissao">
+            </div>
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar">
+        </form>
+        <a href="index.html">Voltar</a>
+    </body>
+</html>
