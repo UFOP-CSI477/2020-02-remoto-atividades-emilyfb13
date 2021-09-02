@@ -1,37 +1,35 @@
-@extends('administrativo')
+@extends('principal')
 
-@section('conteudo2')
+@section('conteudo')
 <div class="container-fluid">
     <table class="table">
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Nome</th>
-                <th>Bairro</th>
-                <th>Cidade</th>
-                <th>Data de Nascimento</th>
+                <th>Pessoa</th>
+                <th>Produto</th>
+                <th>Data</th>
                 <th>Alterar</th>
                 <th>Excluir</th>
             </tr>
         </thead>
         <tbody>
-            @foreach($pessoa as $e)
+            @foreach($compra as $e)
                 <tr>
                     <td>{{ $e->id }}</td>
-                    <td>{{ $e->nome }} </td>
-                    <td>{{ $e->bairro }} </td>
-                    <td>{{ $e->cidade }} </td>
-                    <td>{{ $e->data_nascimento }} </td>
+                    <td>{{ $e->pessoa->nome}}</td>
+                    <td>{{ $e->produto->nome}}</td>
+                    <td>{{ $e->data }} </td>
                     <td>
                         <button type="button" class="btn btn-outline-light btn-sm">
-                            <a id="botaotabela" href="{{route('pessoas.edit', $e->id)}}">Editar</a>
+                            <a id="botaotabela" href="{{route('compra.edit', $e->id)}}">Editar</a>
                         </button>  
                     </td>
                     <td>
                         <form name="frmDelete"
-                            action="{{ route('pessoas.destroy', $e->id)}}"
+                            action="{{ route('compra.destroy', $e->id)}}"
                             method="post"
-                            onsubmit="return confirm('Confirma a exclusão da tarefa?');">
+                            onsubmit="return confirm('Confirma a exclusão da compra?');">
 
                             @csrf
                             @method('DELETE')
@@ -47,7 +45,7 @@
 
     <div class="d-flex flex-row-reverse">
         <button class="btn-sm" id="botao">
-            <a id="botao" href="{{route('produtos.create')}}" >Cadastrar</a>  
+            <a id="botao" href="{{route('compra.create')}}" >Cadastrar</a>  
         </button>
     </div>
 </div>
